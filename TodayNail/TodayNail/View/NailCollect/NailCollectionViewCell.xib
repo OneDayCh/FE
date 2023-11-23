@@ -73,7 +73,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Ep7-E1-aWC" firstAttribute="top" secondItem="EbP-fA-L7d" secondAttribute="bottom" constant="5" id="07p-b5-HZS"/>
                             <constraint firstItem="EbP-fA-L7d" firstAttribute="leading" secondItem="n8M-E2-dlT" secondAttribute="leading" constant="5" id="1hb-vK-qaf"/>
@@ -106,9 +106,6 @@
         <image name="nail_dummy_1" width="150" height="150"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>

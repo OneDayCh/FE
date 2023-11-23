@@ -17,7 +17,7 @@ class NailDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tabBarController?.tabBar.isHidden = true;
+        self.tabBarController?.tabBar.isHidden = true
         setupNavigationBar()
         setupLayout()
     }
