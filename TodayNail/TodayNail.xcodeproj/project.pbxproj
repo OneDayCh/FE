@@ -12,6 +12,13 @@
 		A22C02012B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02002B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift */; };
 		A22C02032B0F0F5600FA73D6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02022B0F0F5600FA73D6 /* MapViewController.swift */; };
 		A22C02052B0F120E00FA73D6 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02042B0F120E00FA73D6 /* CustomAnnotationView.swift */; };
+		A22C02072B0F262000FA73D6 /* LikedNailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02062B0F262000FA73D6 /* LikedNailViewController.swift */; };
+		A22C02092B0F262800FA73D6 /* LikedNailShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02082B0F262800FA73D6 /* LikedNailShopViewController.swift */; };
+		A22C020B2B0F27A900FA73D6 /* TapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C020A2B0F27A900FA73D6 /* TapViewController.swift */; };
+		A22C02162B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02142B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.swift */; };
+		A22C02172B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22C02152B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.xib */; };
+		A22C021A2B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02182B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.swift */; };
+		A22C021B2B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A22C02192B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.xib */; };
 		A26E1DCC2B0DF0F9004544C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DCB2B0DF0F9004544C9 /* AppDelegate.swift */; };
 		A26E1DCE2B0DF0F9004544C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DCD2B0DF0F9004544C9 /* SceneDelegate.swift */; };
 		A26E1DD52B0DF0FA004544C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26E1DD42B0DF0FA004544C9 /* Assets.xcassets */; };
@@ -39,6 +46,13 @@
 		A22C02002B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTimeCollectionViewCell.swift; sourceTree = "<group>"; };
 		A22C02022B0F0F5600FA73D6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		A22C02042B0F120E00FA73D6 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
+		A22C02062B0F262000FA73D6 /* LikedNailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedNailViewController.swift; sourceTree = "<group>"; };
+		A22C02082B0F262800FA73D6 /* LikedNailShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedNailShopViewController.swift; sourceTree = "<group>"; };
+		A22C020A2B0F27A900FA73D6 /* TapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapViewController.swift; sourceTree = "<group>"; };
+		A22C02142B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeNailCollectionViewCell.swift; sourceTree = "<group>"; };
+		A22C02152B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikeNailCollectionViewCell.xib; sourceTree = "<group>"; };
+		A22C02182B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedShopCollectionViewCell.swift; sourceTree = "<group>"; };
+		A22C02192B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LikedShopCollectionViewCell.xib; sourceTree = "<group>"; };
 		A26E1DC82B0DF0F9004544C9 /* TodayNail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E1DCB2B0DF0F9004544C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A26E1DCD2B0DF0F9004544C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -207,6 +221,13 @@
 			children = (
 				A26E1DF62B0ED564004544C9 /* LikeViewController.swift */,
 				A26E1DF82B0ED56B004544C9 /* Like.storyboard */,
+				A22C02062B0F262000FA73D6 /* LikedNailViewController.swift */,
+				A22C02082B0F262800FA73D6 /* LikedNailShopViewController.swift */,
+				A22C020A2B0F27A900FA73D6 /* TapViewController.swift */,
+				A22C02142B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.swift */,
+				A22C02152B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.xib */,
+				A22C02182B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.swift */,
+				A22C02192B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.xib */,
 			);
 			path = Like;
 			sourceTree = "<group>";
@@ -275,7 +296,9 @@
 				A26E1DEF2B0E689E004544C9 /* Home.storyboard in Resources */,
 				A26E1DF92B0ED56B004544C9 /* Like.storyboard in Resources */,
 				A26E1E012B0ED65D004544C9 /* ItemCollect.storyboard in Resources */,
+				A22C02172B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.xib in Resources */,
 				A26E1DD82B0DF0FA004544C9 /* LaunchScreen.storyboard in Resources */,
+				A22C021B2B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.xib in Resources */,
 				A26E1DD52B0DF0FA004544C9 /* Assets.xcassets in Resources */,
 				A26E1E092B0ED97B004544C9 /* NailCollectionViewCell.xib in Resources */,
 				A26E1DF12B0ED3E9004544C9 /* NailCollect.storyboard in Resources */,
@@ -337,7 +360,10 @@
 				A26E1E0B2B0EE29C004544C9 /* NailDetailViewController.swift in Sources */,
 				A26E1DCE2B0DF0F9004544C9 /* SceneDelegate.swift in Sources */,
 				A26E1E082B0ED97B004544C9 /* NailCollectionViewCell.swift in Sources */,
+				A22C02092B0F262800FA73D6 /* LikedNailShopViewController.swift in Sources */,
+				A22C021A2B0F2E8C00FA73D6 /* LikedShopCollectionViewCell.swift in Sources */,
 				A22C02032B0F0F5600FA73D6 /* MapViewController.swift in Sources */,
+				A22C020B2B0F27A900FA73D6 /* TapViewController.swift in Sources */,
 				A26E1DE72B0E5FB6004544C9 /* HomeViewController.swift in Sources */,
 				A22C01FF2B0EEE2D00FA73D6 /* BookingViewController.swift in Sources */,
 				A26E1DFD2B0ED5D8004544C9 /* ShopViewController.swift in Sources */,
@@ -345,6 +371,8 @@
 				A26E1DFF2B0ED653004544C9 /* ItemCollectViewController.swift in Sources */,
 				A22C02052B0F120E00FA73D6 /* CustomAnnotationView.swift in Sources */,
 				A26E1DF72B0ED564004544C9 /* LikeViewController.swift in Sources */,
+				A22C02162B0F2DAA00FA73D6 /* LikeNailCollectionViewCell.swift in Sources */,
+				A22C02072B0F262000FA73D6 /* LikedNailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
