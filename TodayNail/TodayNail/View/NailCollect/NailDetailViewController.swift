@@ -35,14 +35,6 @@ class NailDetailViewController: UIViewController {
     func setupNavigationBar() {
         self.navigationController?.isNavigationBarHidden = false
 
-//        let titleLabel = UILabel()
-//        titleLabel.text = "네일"
-//        titleLabel.textAlignment = .left
-//        titleLabel.font = UIFont.systemFont(ofSize: 20, weight: .bold)
-//        titleLabel.textColor = .purple
-//        titleLabel.sizeToFit()
-        
-//        let titleItem = UIBarButtonItem(customView: titleLabel)
         let titleItem = UIBarButtonItem(image: UIImage(systemName: "chevron.left"), style: .done, target: self, action: #selector(moveToBackVC))
         titleItem.tintColor = .purple
         
