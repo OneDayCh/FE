@@ -1,16 +1,24 @@
 PODS:
   - FSCalendar (2.8.4)
+  - Pageboy (3.7.0)
+  - Tabman (2.13.0):
+    - Pageboy (~> 3.7.0)
 
 DEPENDENCIES:
   - FSCalendar
+  - Tabman (~> 2.12)
 
 SPEC REPOS:
   trunk:
     - FSCalendar
+    - Pageboy
+    - Tabman
 
 SPEC CHECKSUMS:
   FSCalendar: 2d1d0d9398f12d439f55c1fe0f01525b151b8260
+  Pageboy: fe646118f7168960058bea7a96038386aa7c0da8
+  Tabman: 66ea44c44488327ec20f3c8dc5554a5d22f5908c
 
-PODFILE CHECKSUM: 7cc8b8aa28656a5ec78b60ceb1947c32c44214ba
+PODFILE CHECKSUM: c9e8d5f611998349668af71c01c45b88332ebb78
 
 COCOAPODS: 1.14.2
