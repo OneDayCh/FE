@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D1D1278A2C86D859A7C3EB9 /* Pods_TodayNail.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1C483DB88F1B2FF9C07A052 /* Pods_TodayNail.framework */; };
+		A22C01FF2B0EEE2D00FA73D6 /* BookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C01FE2B0EEE2D00FA73D6 /* BookingViewController.swift */; };
+		A22C02012B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02002B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift */; };
+		A22C02032B0F0F5600FA73D6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02022B0F0F5600FA73D6 /* MapViewController.swift */; };
+		A22C02052B0F120E00FA73D6 /* CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A22C02042B0F120E00FA73D6 /* CustomAnnotationView.swift */; };
 		A26E1DCC2B0DF0F9004544C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DCB2B0DF0F9004544C9 /* AppDelegate.swift */; };
 		A26E1DCE2B0DF0F9004544C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DCD2B0DF0F9004544C9 /* SceneDelegate.swift */; };
 		A26E1DD52B0DF0FA004544C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26E1DD42B0DF0FA004544C9 /* Assets.xcassets */; };
@@ -22,9 +27,18 @@
 		A26E1DFD2B0ED5D8004544C9 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DFC2B0ED5D8004544C9 /* ShopViewController.swift */; };
 		A26E1DFF2B0ED653004544C9 /* ItemCollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DFE2B0ED653004544C9 /* ItemCollectViewController.swift */; };
 		A26E1E012B0ED65D004544C9 /* ItemCollect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26E1E002B0ED65D004544C9 /* ItemCollect.storyboard */; };
+		A26E1E082B0ED97B004544C9 /* NailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1E062B0ED97B004544C9 /* NailCollectionViewCell.swift */; };
+		A26E1E092B0ED97B004544C9 /* NailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26E1E072B0ED97B004544C9 /* NailCollectionViewCell.xib */; };
+		A26E1E0B2B0EE29C004544C9 /* NailDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1E0A2B0EE29C004544C9 /* NailDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203EE357E535FC4AA0D7B8BB /* Pods-TodayNail.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNail.release.xcconfig"; path = "Target Support Files/Pods-TodayNail/Pods-TodayNail.release.xcconfig"; sourceTree = "<group>"; };
+		21511B583EF381A2877DE7CC /* Pods-TodayNail.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TodayNail.debug.xcconfig"; path = "Target Support Files/Pods-TodayNail/Pods-TodayNail.debug.xcconfig"; sourceTree = "<group>"; };
+		A22C01FE2B0EEE2D00FA73D6 /* BookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingViewController.swift; sourceTree = "<group>"; };
+		A22C02002B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		A22C02022B0F0F5600FA73D6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A22C02042B0F120E00FA73D6 /* CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotationView.swift; sourceTree = "<group>"; };
 		A26E1DC82B0DF0F9004544C9 /* TodayNail.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayNail.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26E1DCB2B0DF0F9004544C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A26E1DCD2B0DF0F9004544C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +56,10 @@
 		A26E1DFC2B0ED5D8004544C9 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		A26E1DFE2B0ED653004544C9 /* ItemCollectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectViewController.swift; sourceTree = "<group>"; };
 		A26E1E002B0ED65D004544C9 /* ItemCollect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemCollect.storyboard; sourceTree = "<group>"; };
+		A26E1E062B0ED97B004544C9 /* NailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCollectionViewCell.swift; sourceTree = "<group>"; };
+		A26E1E072B0ED97B004544C9 /* NailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NailCollectionViewCell.xib; sourceTree = "<group>"; };
+		A26E1E0A2B0EE29C004544C9 /* NailDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailDetailViewController.swift; sourceTree = "<group>"; };
+		F1C483DB88F1B2FF9C07A052 /* Pods_TodayNail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TodayNail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D1D1278A2C86D859A7C3EB9 /* Pods_TodayNail.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15210619FD9943D0545B7717 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1C483DB88F1B2FF9C07A052 /* Pods_TodayNail.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68219B6B7B078C90BED19E66 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21511B583EF381A2877DE7CC /* Pods-TodayNail.debug.xcconfig */,
+				203EE357E535FC4AA0D7B8BB /* Pods-TodayNail.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A26E1DBF2B0DF0F9004544C9 = {
 			isa = PBXGroup;
 			children = (
 				A26E1DCA2B0DF0F9004544C9 /* TodayNail */,
 				A26E1DC92B0DF0F9004544C9 /* Products */,
+				68219B6B7B078C90BED19E66 /* Pods */,
+				15210619FD9943D0545B7717 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,6 +191,13 @@
 			children = (
 				A26E1DF02B0ED3E9004544C9 /* NailCollect.storyboard */,
 				A26E1DF42B0ED43B004544C9 /* NailCollectViewController.swift */,
+				A26E1E062B0ED97B004544C9 /* NailCollectionViewCell.swift */,
+				A26E1E072B0ED97B004544C9 /* NailCollectionViewCell.xib */,
+				A26E1E0A2B0EE29C004544C9 /* NailDetailViewController.swift */,
+				A22C01FE2B0EEE2D00FA73D6 /* BookingViewController.swift */,
+				A22C02002B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift */,
+				A22C02022B0F0F5600FA73D6 /* MapViewController.swift */,
+				A22C02042B0F120E00FA73D6 /* CustomAnnotationView.swift */,
 			);
 			path = NailCollect;
 			sourceTree = "<group>";
@@ -173,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A26E1DDC2B0DF0FA004544C9 /* Build configuration list for PBXNativeTarget "TodayNail" */;
 			buildPhases = (
+				657AEE9E22201395BEA96107 /* [CP] Check Pods Manifest.lock */,
 				A26E1DC42B0DF0F9004544C9 /* Sources */,
 				A26E1DC52B0DF0F9004544C9 /* Frameworks */,
 				A26E1DC62B0DF0F9004544C9 /* Resources */,
+				4F9B49409E6B258410545C22 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,11 +277,54 @@
 				A26E1E012B0ED65D004544C9 /* ItemCollect.storyboard in Resources */,
 				A26E1DD82B0DF0FA004544C9 /* LaunchScreen.storyboard in Resources */,
 				A26E1DD52B0DF0FA004544C9 /* Assets.xcassets in Resources */,
+				A26E1E092B0ED97B004544C9 /* NailCollectionViewCell.xib in Resources */,
 				A26E1DF12B0ED3E9004544C9 /* NailCollect.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F9B49409E6B258410545C22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodayNail/Pods-TodayNail-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TodayNail/Pods-TodayNail-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TodayNail/Pods-TodayNail-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		657AEE9E22201395BEA96107 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TodayNail-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A26E1DC42B0DF0F9004544C9 /* Sources */ = {
@@ -244,10 +334,16 @@
 				A26E1DE92B0E6291004544C9 /* DefaultTabBarController.swift in Sources */,
 				A26E1DF52B0ED43B004544C9 /* NailCollectViewController.swift in Sources */,
 				A26E1DCC2B0DF0F9004544C9 /* AppDelegate.swift in Sources */,
+				A26E1E0B2B0EE29C004544C9 /* NailDetailViewController.swift in Sources */,
 				A26E1DCE2B0DF0F9004544C9 /* SceneDelegate.swift in Sources */,
+				A26E1E082B0ED97B004544C9 /* NailCollectionViewCell.swift in Sources */,
+				A22C02032B0F0F5600FA73D6 /* MapViewController.swift in Sources */,
 				A26E1DE72B0E5FB6004544C9 /* HomeViewController.swift in Sources */,
+				A22C01FF2B0EEE2D00FA73D6 /* BookingViewController.swift in Sources */,
 				A26E1DFD2B0ED5D8004544C9 /* ShopViewController.swift in Sources */,
+				A22C02012B0F06DF00FA73D6 /* BookingTimeCollectionViewCell.swift in Sources */,
 				A26E1DFF2B0ED653004544C9 /* ItemCollectViewController.swift in Sources */,
+				A22C02052B0F120E00FA73D6 /* CustomAnnotationView.swift in Sources */,
 				A26E1DF72B0ED564004544C9 /* LikeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -387,14 +483,19 @@
 		};
 		A26E1DDD2B0DF0FA004544C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21511B583EF381A2877DE7CC /* Pods-TodayNail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J4X458RVHG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodayNail/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"주변 네일샵 검색을 위해 위치 정보를 제공받고자 합니다\"";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "\"주변 네일샵 검색을 위해 위치 정보를 제공받고자 합니다\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"주변 네일샵 검색을 위해 위치 정보를 제공받고자 합니다\"";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -417,14 +518,19 @@
 		};
 		A26E1DDE2B0DF0FA004544C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 203EE357E535FC4AA0D7B8BB /* Pods-TodayNail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = J4X458RVHG;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TodayNail/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "\"주변 네일샵 검색을 위해 위치 정보를 제공받고자 합니다\"";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "\"주변 네일샵 검색을 위해 위치 정보를 제공받고자 합니다\"";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "\"주변 네일샵 검색을 위해 위치 정보를 제공받고자 합니다\"";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
