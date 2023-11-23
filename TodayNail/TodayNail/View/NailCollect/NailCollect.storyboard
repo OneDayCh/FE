@@ -19,10 +19,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YDD-F1-OWS">
-                                <rect key="frame" x="0.0" y="99" width="393" height="719"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="YDD-F1-OWS">
+                                <rect key="frame" x="10" y="99" width="383" height="719"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Jgs-15-XuW">
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Jgs-15-XuW">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -40,7 +40,7 @@
                                 </cells>
                             </collectionView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9U-Ni-hP9">
-                                <rect key="frame" x="0.0" y="59" width="393" height="40"/>
+                                <rect key="frame" x="0.0" y="59" width="403" height="40"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jOb-8e-H2e">
                                         <rect key="frame" x="10" y="2.6666666666666643" width="35" height="35"/>
@@ -81,12 +81,12 @@
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="YDD-F1-OWS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="RDn-8T-fFk"/>
+                            <constraint firstItem="YDD-F1-OWS" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="10" id="RDn-8T-fFk"/>
                             <constraint firstItem="YDD-F1-OWS" firstAttribute="top" secondItem="S9U-Ni-hP9" secondAttribute="bottom" id="TkN-d6-WLo"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YDD-F1-OWS" secondAttribute="trailing" id="goG-KF-sG1"/>
                             <constraint firstItem="S9U-Ni-hP9" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="hMT-Eb-iHA"/>
                             <constraint firstItem="S9U-Ni-hP9" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="iBe-2Z-3kA"/>
-                            <constraint firstItem="S9U-Ni-hP9" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" id="uQK-jA-Arb"/>
+                            <constraint firstItem="S9U-Ni-hP9" firstAttribute="trailing" secondItem="vDu-zF-Fre" secondAttribute="trailing" constant="10" id="uQK-jA-Arb"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="YDD-F1-OWS" secondAttribute="bottom" id="uTb-cs-gO0"/>
                         </constraints>
                     </view>
@@ -463,6 +463,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="예약하기">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="15"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="didTapBookingBtn:" destination="8VG-KQ-baA" eventType="touchUpInside" id="685-Ei-HnA"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hSc-mI-7HR" customClass="FSCalendar">
                                 <rect key="frame" x="20" y="90" width="353" height="280"/>
@@ -491,6 +494,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="bookingBtn" destination="Lwg-fS-VKu" id="tqh-ch-gik"/>
                         <outlet property="calendarView" destination="hSc-mI-7HR" id="PDn-KU-DF3"/>
                         <outlet property="timeCollectionView" destination="3t7-HH-NjG" id="nfO-gB-G75"/>
                     </connections>

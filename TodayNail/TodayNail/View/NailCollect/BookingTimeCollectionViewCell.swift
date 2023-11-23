@@ -12,8 +12,12 @@ class BookingTimeCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var timeLabel: UILabel!
     
-    func configure(timeStr: String, isSelected: Bool) {
-        backView.backgroundColor = isSelected ? .purple : .systemGray6
-        timeLabel.text = timeStr
+    override var isSelected: Bool{
+        didSet {
+            if isSelected { backView.backgroundColor = UIColor(red: 202/255, green: 201/255, blue: 255/255, alpha: 1) }
+            else { backView.backgroundColor = .systemGray6 }
+        }
     }
+    
+    func configure(timeStr: String, isSelected: Bool) { timeLabel.text = timeStr }
 }
