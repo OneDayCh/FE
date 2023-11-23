@@ -13,9 +13,12 @@ class NailCollectViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBarController?.tabBar.isHidden = false
         setupNavigationBar()
         setupCollectionView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.tabBarController?.tabBar.isHidden = false
     }
     
     @IBAction func didTapOpenMapBtn(_ sender: Any) {
