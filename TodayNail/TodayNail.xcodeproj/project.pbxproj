@@ -22,6 +22,8 @@
 		A26E1DFD2B0ED5D8004544C9 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DFC2B0ED5D8004544C9 /* ShopViewController.swift */; };
 		A26E1DFF2B0ED653004544C9 /* ItemCollectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1DFE2B0ED653004544C9 /* ItemCollectViewController.swift */; };
 		A26E1E012B0ED65D004544C9 /* ItemCollect.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26E1E002B0ED65D004544C9 /* ItemCollect.storyboard */; };
+		A26E1E082B0ED97B004544C9 /* NailCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26E1E062B0ED97B004544C9 /* NailCollectionViewCell.swift */; };
+		A26E1E092B0ED97B004544C9 /* NailCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26E1E072B0ED97B004544C9 /* NailCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		A26E1DFC2B0ED5D8004544C9 /* ShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
 		A26E1DFE2B0ED653004544C9 /* ItemCollectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectViewController.swift; sourceTree = "<group>"; };
 		A26E1E002B0ED65D004544C9 /* ItemCollect.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ItemCollect.storyboard; sourceTree = "<group>"; };
+		A26E1E062B0ED97B004544C9 /* NailCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailCollectionViewCell.swift; sourceTree = "<group>"; };
+		A26E1E072B0ED97B004544C9 /* NailCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NailCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,8 @@
 			children = (
 				A26E1DF02B0ED3E9004544C9 /* NailCollect.storyboard */,
 				A26E1DF42B0ED43B004544C9 /* NailCollectViewController.swift */,
+				A26E1E062B0ED97B004544C9 /* NailCollectionViewCell.swift */,
+				A26E1E072B0ED97B004544C9 /* NailCollectionViewCell.xib */,
 			);
 			path = NailCollect;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 				A26E1E012B0ED65D004544C9 /* ItemCollect.storyboard in Resources */,
 				A26E1DD82B0DF0FA004544C9 /* LaunchScreen.storyboard in Resources */,
 				A26E1DD52B0DF0FA004544C9 /* Assets.xcassets in Resources */,
+				A26E1E092B0ED97B004544C9 /* NailCollectionViewCell.xib in Resources */,
 				A26E1DF12B0ED3E9004544C9 /* NailCollect.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,6 +252,7 @@
 				A26E1DF52B0ED43B004544C9 /* NailCollectViewController.swift in Sources */,
 				A26E1DCC2B0DF0F9004544C9 /* AppDelegate.swift in Sources */,
 				A26E1DCE2B0DF0F9004544C9 /* SceneDelegate.swift in Sources */,
+				A26E1E082B0ED97B004544C9 /* NailCollectionViewCell.swift in Sources */,
 				A26E1DE72B0E5FB6004544C9 /* HomeViewController.swift in Sources */,
 				A26E1DFD2B0ED5D8004544C9 /* ShopViewController.swift in Sources */,
 				A26E1DFF2B0ED653004544C9 /* ItemCollectViewController.swift in Sources */,
