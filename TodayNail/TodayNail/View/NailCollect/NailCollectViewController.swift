@@ -63,6 +63,11 @@ extension NailCollectViewController: UICollectionViewDataSource, UICollectionVie
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let detailVC = storyboard?.instantiateViewController(identifier: "NailDetailViewController") as? NailDetailViewController else { return }
+        self.navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         let width = (UIScreen.main.bounds.size.width-30)/2
         return CGSize(width: width, height: width*1.5)
